@@ -22,8 +22,8 @@ ul {
 }
 
 .square {
-  background: navy;
-  border: 10px solid white;
+  background: black;
+  border: 2px solid white;
   float: left;
   font-size: 20px;
   font-weight: bold;
@@ -31,7 +31,6 @@ ul {
   height: 100px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
   text-align: center;
   width: 100px;
 }
@@ -45,16 +44,15 @@ ul {
 }
 
 .game {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   margin: 0 auto;
   max-width: 460px;
 }
 
 .game-info {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -63,11 +61,17 @@ h1 {
 }
 
 span {
-  font-size: 50px;
+  font-size: 60px;
 }
 .list {
-  justify-content: center;
+  max-width: 300px;
   display: inline-flex;
   font-size: 20px;
   margin: 5px;
+}
+.game-board {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
